@@ -1,3 +1,115 @@
+# Day 1
+
+## 🟢 **Beginner Level: Foundations**
+### 1. **Prerequisites**
+- ✅ HTML, CSS
+- ✅ JavaScript (ES6+): `let/const`, arrow functions, promises, destructuring, spread/rest operators
+- ✅ TypeScript basics: interfaces, classes, types, generics
+
+### 2. **Environment Setup**
+- Install Node.js + npm
+- Install Angular CLI:  
+  ```bash
+  npm install -g @angular/cli
+  ```
+- Create a project:  
+  ```bash
+  ng new my-app
+  cd my-app
+  ng serve
+  ```
+
+### 3. **Core Angular Concepts**
+- Components
+- Templates & Data Binding (interpolation, event binding, property binding, two-way binding)
+- Directives (`*ngIf`, `*ngFor`, `ngClass`, `ngStyle`)
+- Pipes (built-in & custom)
+
+<!-- ---
+
+## 🟡 **Intermediate Level: Structure & Services**
+### 4. **Modules & Routing**
+- Feature modules
+- Lazy loading
+- Route guards (`CanActivate`, `CanDeactivate`)
+- Nested routes
+- RouterLink and router-outlet
+
+### 5. **Services & Dependency Injection**
+- Creating and injecting services
+- Singleton vs multi-instance services
+- `HttpClient` for API calls
+- Observables & RxJS basics (`Observable`, `Subject`, `BehaviorSubject`)
+
+### 6. **Forms**
+- Template-driven forms
+- Reactive forms
+- Form validation (built-in & custom validators)
+- Dynamic form controls
+
+### 7. **State Management Basics**
+- Using `@Input()` and `@Output()` for parent-child communication
+- Shared services for data flow
+- RxJS patterns: `switchMap`, `mergeMap`, `debounceTime`
+
+---
+
+## 🔵 **Advanced Level: Architecture & Optimization**
+### 8. **Advanced RxJS**
+- Higher-order mapping
+- Error handling (`catchError`, `retry`)
+- Unsubscribing properly (`takeUntil`, `async` pipe)
+
+### 9. **NgRx (Redux pattern)**
+- Store, Actions, Reducers, Selectors, Effects
+- NgRx DevTools
+- Entity adapter
+- Async actions with `createEffect`
+
+### 10. **Advanced Angular Concepts**
+- Lifecycle hooks (`ngOnInit`, `ngOnDestroy`, etc.)
+- Content projection (`ng-content`)
+- ViewChild & ContentChild
+- Change detection strategies
+- Standalone components (Angular 15+)
+
+---
+
+## 🔴 **Expert Level: Performance & Testing**
+### 11. **Performance Optimization**
+- Lazy loading modules/components
+- OnPush change detection
+- Virtual scrolling
+- TrackBy in *ngFor
+- Preloading strategies
+
+### 12. **Testing**
+- Unit testing with Jasmine & Karma
+- Component testing
+- Service testing with mock services
+- End-to-end testing with Cypress / Protractor
+
+---
+
+## ⚙️ **Tooling & Best Practices**
+- Angular CLI commands (`ng generate`, `ng build`, etc.)
+- ESLint / Prettier
+- SCSS / Tailwind for styling
+- Angular Material / PrimeNG
+- Folder structure best practices
+- CI/CD with GitHub Actions, Docker, Vercel/Netlify
+
+--> 
+---
+
+## 📘 **Resources to Learn**
+- [angular.io](https://angular.io) (official docs)
+- [RxJS docs](https://rxjs.dev)
+- [NG Conf](https://www.ng-conf.org/) & YouTube
+<!-- Courses: Udemy (Maximilian Schwarzmüller or Mosh Hamedani), Pluralsight -->
+
+---
+
 # Angular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
